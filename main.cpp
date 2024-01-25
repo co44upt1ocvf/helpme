@@ -88,6 +88,8 @@ int main() {
             case 8:
                 cout << factorial(a) << "\n";
                 break;
+            default:
+                break;
         }
     } while (choice != 9);
 
