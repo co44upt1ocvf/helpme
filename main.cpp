@@ -41,6 +41,7 @@ int main() {
                         continue;
                     }
                 } else{
+                    cout << "Введено не ЧИСЛО!";
                     break;
                 }
             }
@@ -49,10 +50,12 @@ int main() {
                     cout << "Введите число: ";
                     cin >> a;
                 } else{
+                    cout << "Введено не ЧИСЛО!";
                     break;
                 }
             }
         } else{
+            cout << "Такой операции нет!\n";
             break;
         }
 
@@ -85,8 +88,6 @@ int main() {
             case 8:
                 cout << factorial(a) << "\n";
                 break;
-            default:
-                cout << "Такой операции нет!\n";
         }
     } while (choice != 9);
 
