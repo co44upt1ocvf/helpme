@@ -12,6 +12,13 @@ int factorial(double n) {
     return result;
 }
 
+int errorvalue(){
+    cout << "Введено НЕ число!\n" << endl;
+    cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
+    getch();
+    exit(0);
+}
+
 int main() {
     system("chcp 65001");
     double a, b = 0.0;
@@ -42,18 +49,12 @@ int main() {
                         }
                         else
                         {
-                            cout << "Введено НЕ число!\n" << endl;
-                            cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                            getch();
-                            exit(0);
+                            errorvalue();
                         }
                     }
                     else
                     {
-                        cout << "Введено НЕ число!\n" << endl;
-                        cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                        getch();
-                        exit(0);
+                        errorvalue();
                     }
                     break;
                 case 2:
@@ -67,18 +68,12 @@ int main() {
                         }
                         else
                         {
-                            cout << "Введено НЕ число!\n" << endl;
-                            cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                            getch();
-                            exit(0);
+                            errorvalue();
                         }
                     }
                     else
                     {
-                        cout << "Введено НЕ число!\n" << endl;
-                        cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                        getch();
-                        exit(0);
+                        errorvalue();
                     }
                     break;
                 case 3:
@@ -92,18 +87,12 @@ int main() {
                         }
                         else
                         {
-                            cout << "Введено НЕ число!\n" << endl;
-                            cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                            getch();
-                            exit(0);
+                            errorvalue();
                         }
                     }
                     else
                     {
-                        cout << "Введено НЕ число!\n" << endl;
-                        cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                        getch();
-                        exit(0);
+                        errorvalue();
                     }
                     break;
                 case 4:
@@ -122,18 +111,12 @@ int main() {
                         }
                         else
                         {
-                            cout << "Введено НЕ число!\n" << endl;
-                            cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                            getch();
-                            exit(0);
+                            errorvalue();
                         }
                     }
                     else
                     {
-                        cout << "Введено НЕ число!\n" << endl;
-                        cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                        getch();
-                        exit(0);
+                        errorvalue();
                     }
                     break;
                 case 5:
@@ -147,18 +130,12 @@ int main() {
                         }
                         else
                         {
-                            cout << "Введено НЕ число!\n" << endl;
-                            cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                            getch();
-                            exit(0);
+                            errorvalue();
                         }
                     }
                     else
                     {
-                        cout << "Введено НЕ число!\n" << endl;
-                        cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                        getch();
-                        exit(0);
+                        errorvalue();
                     }
                     break;
                 case 6:
@@ -168,10 +145,7 @@ int main() {
                         cout << sqrt(a) << endl;
                     }
                     else {
-                        cout << "Введено НЕ число!\n" << endl;
-                        cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                        getch();
-                        exit(0);
+                        errorvalue();
                     }
                     break;
                 case 7:
@@ -185,18 +159,12 @@ int main() {
                         }
                         else
                         {
-                            cout << "Введено НЕ число!\n" << endl;
-                            cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                            getch();
-                            exit(0);
+                            errorvalue();
                         }
                     }
                     else
                     {
-                        cout << "Введено НЕ число!\n" << endl;
-                        cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                        getch();
-                        exit(0);
+                        errorvalue();
                     }
                     break;
                 case 8:
@@ -206,10 +174,7 @@ int main() {
                         cout << factorial(a) << "\n";
                     }
                     else {
-                        cout << "Введено НЕ число!\n" << endl;
-                        cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-                        getch();
-                        exit(0);
+                        errorvalue();
                     }
                     break;
                 default:
@@ -218,10 +183,7 @@ int main() {
         }
         else
         {
-            cout << "Введено НЕ число!\n" << endl;
-            cout << "Нажмите на любую клавишу, чтобы закрыть окно!" << endl;
-            getch();
-            exit(0);
+            errorvalue();
         }
     } while (choice != 9);
 
